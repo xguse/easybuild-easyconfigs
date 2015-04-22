@@ -4,7 +4,7 @@ version = '2.7.9'
 homepage = 'http://python.org/'
 description = "Python is a programming language that lets you work more quickly and integrate your systems more effectively."
 
-toolchain = {'name': 'goolf', 'version': '1.5.14'}
+toolchain = {'name': 'goolf', 'version': '1.4.10'}
 toolchainopts = {'pic': True, 'opt': True, 'optarch': True}
 
 numpyversion = '1.9.2'
@@ -17,7 +17,7 @@ sources = [SOURCE_TGZ]
 dependencies = [
     ('bzip2', '1.0.6'),
     ('zlib', '1.2.8'),
-    ('libreadline', '6.3'),
+    ('libreadline', '6.2'),
     ('ncurses', '5.9'),
 #   ('OpenSSL', '1.0.1k'),  # OS dependency should be preferred if the os version is more recent then this version, it's
 #   nice to have an up to date openssl for security reasons
