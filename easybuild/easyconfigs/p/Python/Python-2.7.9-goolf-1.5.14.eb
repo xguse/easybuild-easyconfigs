@@ -17,13 +17,15 @@ sources = [SOURCE_TGZ]
 dependencies = [
     ('bzip2', '1.0.6'),
     ('zlib', '1.2.8'),
-    ('libreadline', '6.3'),
     ('ncurses', '5.9'),
+#   ('libreadline', '6.3'),
 #   ('OpenSSL', '1.0.1k'),  # OS dependency should be preferred if the os version is more recent then this version, it's
 #   nice to have an up to date openssl for security reasons
 ]
 
-osdependencies = [('openssl-devel', 'libssl-dev', 'libopenssl-devel')]
+# osdependencies = [('openssl-devel', 'libssl-dev', 'libopenssl-devel')]
+allow_system_deps = [('readline','6.3'),]
+
 
 # order is important!
 # package versions updated Jan 19th 2015
