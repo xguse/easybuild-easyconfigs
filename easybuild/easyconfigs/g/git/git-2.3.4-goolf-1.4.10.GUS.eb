@@ -26,11 +26,11 @@ toolchain = {'name': 'goolf', 'version': '1.4.10'}
 sources = [SOURCELOWER_TAR_GZ]
 source_urls = ['https://www.kernel.org/pub/software/scm/git/']
 
-# dependencies = [
-#     ('cURL', '7.29.0'),
-#     ('expat', '2.1.0'),
-#     ('gettext', '0.18.2'),
-# ]
+dependencies = [
+    ('cURL', '7.29.0'),
+    ('expat', '2.1.0'),
+    ('gettext', '0.18.2'),
+]
 
 sanity_check_paths = {
     'files': ['bin/git'],
